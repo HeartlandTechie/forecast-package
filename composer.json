@@ -1,0 +1,21 @@
+{
+    "name": "keithroye/forecast",
+    "description": "This package will allow users to obtain a 5 day weather forecast based upon the given zip code provided.",
+    "type": "library",
+    "require-dev": {
+        "guzzlehttp/guzzle": "^6.3@dev"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "KeithRoye\\Forecast": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Keith Roye",
+            "email": "inspiredbykeith@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
