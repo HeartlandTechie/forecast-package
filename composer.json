@@ -15,9 +15,6 @@
             "providers": [
                 "KeithRoye\\Forecast\\WeatherServiceProvider"
             ],
-            "aliases": {
-                "Debugbar": "Barryvdh\\Debugbar\\Facade"
-            }
         }
     },
     "license": "MIT",
