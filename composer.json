@@ -10,13 +10,6 @@
             "KeithRoye\\Forecast": "src/"
         }
     },
-   "extra": {
-    "laravel": {
-        "providers": [
-            "KeithRoye\\Forecast\\WeatherServiceProvider"
-            ],
-        }
-    },
     "license": "MIT",
     "authors": [
         {
