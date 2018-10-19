@@ -10,6 +10,16 @@
             "KeithRoye\\Forecast": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KeithRoye\\Forecast\\WeatherServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "Barryvdh\\Debugbar\\Facade"
+            }
+        }
+    },
     "license": "MIT",
     "authors": [
         {
