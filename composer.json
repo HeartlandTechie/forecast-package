@@ -2,10 +2,10 @@
     "name": "keithroye/forecast",
     "description": "This package will allow users to obtain a 5 day weather forecast based upon the given zip code provided.",
     "type": "library",
-    "require-dev": {
+    "require": {
         "guzzlehttp/guzzle": "^6.3@dev"
     },
-    "autoload-dev": {
+    "autoload": {
         "psr-4": {
             "KeithRoye\\Forecast\\": "src/"
         }
