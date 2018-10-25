@@ -8,13 +8,13 @@ use App\Http\Controllers\Controller;
 
 class  ForecastController extends Controller
 {
-    public  function getWeather(Request $request)
+	public  function getWeather(Request $request)
 	{
 
 		try {
 
 			$client = new 	Client([
-        
+
 				'base_uri' => 'http://api.openweathermap.org/data/2.5/',
 			]);
 
@@ -22,7 +22,7 @@ class  ForecastController extends Controller
 				'query' => [
 					'zip' =>  $request->input('zip'),
 					'country code' => 'us',
-					'APPID' => '' // YOUR APPID HERE...
+					'APPID' => '' // YOUR API KEY HERE...
 
 				],
 
