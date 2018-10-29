@@ -22,7 +22,7 @@ class  ForecastController extends Controller
 				'query' => [
 					'zip' =>  $request->input('zip'),
 					'country code' => 'us',
-					'APPID' => '' // YOUR API KEY HERE...
+					'APPID' => env('OPENWEATHER_APP_ID');
 
 				],
 
