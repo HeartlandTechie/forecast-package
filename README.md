@@ -23,7 +23,7 @@ composer require keithroye/forecast
 Run Composer dump-autoload on the application
 
 ```bash
-composer dump-autolaod
+composer dump-autoload
 ```
 
 Create an account on openweathermap.org to obtain your personal API key and add it the ForecastController.php
