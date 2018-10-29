@@ -26,10 +26,10 @@ Run Composer dump-autoload on the application
 composer dump-autoload
 ```
 
-Create an account on openweathermap.org to obtain your personal API key and add it the ForecastController.php
+Create an account on openweathermap.org to obtain your personal API key and add it to the .env config file
 
 ```bash
-'APPID' => '' // YOUR API KEY HERE...
+'OPENWEATHER_APP_ID' => '' // YOUR API KEY HERE...
 ```
 
 Now you are all set to make API calls! 
